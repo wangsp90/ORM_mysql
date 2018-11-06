@@ -20,3 +20,8 @@ class publisher(models.Model):
 	NAME=models.CharField(max_length=100,null=False)
 	#出版社ADDR,float
 	ADDR=models.CharField(max_length=255,null=False)
+
+class contact(models.Model):
+	ADDR=models.TextField(null=True)
+	NUM=models.CharField(max_length=255,null=True)
+    

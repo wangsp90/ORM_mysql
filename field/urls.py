@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-app_name="field"
 from . import views
+app_name="fkey"
+
 
 urlpatterns = [
 #    path('admin/', admin.site.urls),
