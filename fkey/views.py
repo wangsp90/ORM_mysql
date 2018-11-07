@@ -4,10 +4,10 @@ from .models import *
 from book.models import contact
 
 def index(request):
-	e01=employee(NAME="Mary",SEX="F")
+	e01=employee(NAME="Tom",SEX="M")
 	e01.save()
 
-	con01=contact(ADDR="GZ",NUM="13888888888")
+	con01=contact(ADDR="GZ",NUM="13966866666")
 	con01.save()
 	
 	level01=salary(SALARY=3000,LEVEL=1)

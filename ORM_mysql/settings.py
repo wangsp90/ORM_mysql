@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'book',
     'field',
     'fkey',
+    'tables',
 ]
 
 MIDDLEWARE = [
